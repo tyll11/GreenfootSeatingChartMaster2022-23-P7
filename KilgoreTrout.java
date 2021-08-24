@@ -25,8 +25,8 @@ public class KilgoreTrout extends Student implements SpecialInterestOrHobby
     public KilgoreTrout(String f, String l, int r, int s) {
         firstName=f;
         lastName=l;
-        myRow=r;
-        mySeat=s;
+        mySeatX=r;
+        mySeatY=s;
         portraitFile=f.toLowerCase()+l.toLowerCase()+".jpg";    // Make sure to name your image files firstlast.jpg, all lowercase!!!
         standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
         soundFile=f.toLowerCase()+l.toLowerCase()+".wav";  // Make sure to name your sound files firstlast.wav, all lowercase!!!
@@ -41,8 +41,8 @@ public class KilgoreTrout extends Student implements SpecialInterestOrHobby
     public KilgoreTrout() {
         firstName="Kilgore";
         lastName="Trout";
-        myRow=1;
-        mySeat=1;
+        mySeatX=1;
+        mySeatY=1;
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        standingFile=firstName.toLowerCase()+ lastName.toLowerCase()+"-standing.jpg";
