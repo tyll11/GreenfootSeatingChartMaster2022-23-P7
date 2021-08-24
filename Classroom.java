@@ -6,8 +6,8 @@ import java.util.ArrayList;
 /**
  * Write a description of class Classroom here.
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author Mr. Kaehms 
+ * @version 2.0  Note: updated for new desk layout. Goal is to make setting seats easy
  */
 public class Classroom extends World
 {
