@@ -33,14 +33,7 @@ public abstract class Student extends Actor
     
     public abstract void  getName(); //This is an abstract methods. You will have to implement it
                                      // in your own class file. See KilgoreTrout for an example
-    public abstract void  provideLesson(); // each group should implement their own version of this method.
-                                           // See the notes in the assignment instructions for possible implementation.
-     public abstract void  answerQuestion(); //This is an abstract method. You will have to implement it
-                                            // in your own class file.  It was used in 2019-20 so that students could
-                                            // implement methods that would discuss the summer homework lessons.  This year
-                                            // you will work in teams of 3 to figure out some way to actually give a short
-                                            // Runestone lesson.
-    
+ 
     /**
      * Plays a sound file when called
      * @param String myNameFile  is the name of the sound file to play, ex "mySound.wav",
@@ -52,6 +45,12 @@ public abstract class Student extends Actor
     
     public int GetSeatY(){
         return mySeatY;
+    }
+    public String getFirstName(){
+        return firstName;
+    }
+     public String getLastName(){
+        return lastName;
     }
     
     public void sayName(String myNameFile){

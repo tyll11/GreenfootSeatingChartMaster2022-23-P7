@@ -1,10 +1,15 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class StudentDeskGroup here.
+ * This is a container for methods that could be called from the Classroom.  Possible methods could include the following:
+ * public void assignSeatsToDeskGroups();  // iterates through all seats and sets the deskGroup based on position of each seat
+ * public void getCurrentStudents(int deskGroup)  // list all students in a current deskGroup  (prints to console)
+ * Can you think of others?
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * methods should be public, so they can be called when the scenario is in pause mode.
+ * 
+ * @author (your name (add your groups names here, and tie to any method that you add) 
+ * @version (a version number or a date. Update this for each revision)
  */
 public class StudentDeskGroup extends Actor
 {

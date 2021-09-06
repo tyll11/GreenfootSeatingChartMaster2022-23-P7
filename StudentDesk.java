@@ -15,10 +15,14 @@ public class StudentDesk extends Actor
     private int deskGroup;
     public void act() 
     {
-        // Add your action code here.
+        // desks should not act.
     } 
     public void setDeskGroup(int i){
         if (i>0 && i<9)
            deskGroup=i;
+        }
+     public int getDeskGroup(){
+        
+           return deskGroup;
         }
 }

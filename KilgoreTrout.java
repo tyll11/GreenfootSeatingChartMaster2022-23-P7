@@ -72,7 +72,7 @@ public class KilgoreTrout extends Student implements SpecialInterestOrHobby
             // Call the sitDown() method to move back  to your seat
             
                 circleClass();  // Kilgore Trount's special method... Please write one of your own. You can use this, but please modify it and be creative.
-                provideLesson();
+           
                 sitDown();
             }
         
@@ -90,32 +90,8 @@ public class KilgoreTrout extends Student implements SpecialInterestOrHobby
      * with some additional class and object that represents a blackboard, or a talking cartoon bubble etc. If you provide extra
      * classes, make sure to fully document so other students can use the same interface.
      */
-    public void provideLesson(){
-        while (! sitting) {
-        String q=Greenfoot.ask("Are you ready to start (yes/no)");
-        if (q.contains("yes")){
-         // put in your lesson here - you can open up a browser for a screencast
-         // Create a blackboard image and write to it, etc
-         // Use an animated gif and dub over with audio - see "controls/show sound recoder"
-         // from main greenfoot menu for a simple to use soud editor
-        
-         
-        // You can end the lesson and "sitDown" once the lesson is complete, or once
-        // someone answers "yes" to the sitdown question
-        }
-        else {
-          q=Greenfoot.ask("I don't understand the question... May I sit down?"); 
-        }
-         if (q.equals("yes")){
-            Greenfoot.delay(10);
-            sitDown();
-        }
-    }
-        
-    }
-    public void answerQuestion(){
-        // may not need
-    }
+
+   
     /**
      * This is a local method specific to the KilgoreTrout class used to animate the character once the image is clicked on.
      * You should write your own methods to perform your own animation for your character/avatar.
