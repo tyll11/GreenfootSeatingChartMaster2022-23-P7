@@ -4,7 +4,7 @@ PROJECT TITLE: AP CSA Assignment 1 (An interactive seating chart using Greenfoot
 PURPOSE OF PROJECT: The purpose of this assignment is to visually work with classes and subclasses, abstract classes, and interfaces, and to familiarize yourself with the basics of the GIT command line.  As a side effect, it will help your instructor learn your names!
 
 VERSION or DATE: 07/21/2020
-Version 2 (2021-22): 09/06/21
+Version 3 (2022-23): 08/15/22
 
 HOW TO START THIS PROJECT:  To start this project, assuming that you have Greenfoot installed, click on the greenfoot project file within the top level of the assignment directory.  If greenfoot is correctly installed, you will see a green foot icon just to the left of "project".
 
@@ -64,7 +64,7 @@ while performing some kind of animation.
 2) Each student must implement one of the abstract classes. See KilgoreTrout.java for an example. Note the "implements" directive
 in the class declaration.
 
-3) The wav file should state your name, and say one thing unique about you, similar to the original survey.
+3) The wav file should state your name, and say one thing unique about you (not that you hunt lions in Africa).
 
 4) Each table group must implement at least one method in some other part of the scenario.  Each method of this type must
 be fully documented so that other students and table groups can use the method, if they want.  You can add methods to the
@@ -73,6 +73,9 @@ listed in the description section of StudentDeskGroup that you write, or use as 
 
 5) Before you start, each period should agree on a build-master or build-masters, and a workflow that they will use to manage
 and update the master repository.  Access rights can be assigned to groups, and currently there is a group for each classroom.
+(Google "popular GIT workflows).  We will discuss some in class.
+
+See the Canvas instructions for a complete set of requirements for this year's project.
 
 
 
