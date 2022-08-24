@@ -79,14 +79,14 @@ See the Canvas instructions for a complete set of requirements for this year's p
 
 INSTRUCTIONS FROM PROJECT MASTER
 
-1. Start by cloning the repository using git clone
+1. Start by cloning the repository using (git clone)
 
 2. Create a new branch with the format with you first name and last name ex: (git checkout -b add timcook) or ((git branch timcook), (git checkout timcook))
 
-3. Then add and commit the files you have added/changed to the branch
+3. Then add and commit the files you have added/changed to the branch ex: ((git add), (git commit -m "enter your message"))
 
-4. Your branch is currently a local branch but you need to push it to a remote branch. To do so use the command git push - u origin branch name. 
-ex: git push-u origin timcook
+4. Your branch is currently a local branch but you need to push it to a remote branch. To do so use the command (git push - u origin branchname). 
+ex: (git push-u origin timcook)
 
 5. Your branch should be on the github remote repository now!
 
