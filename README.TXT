@@ -77,6 +77,18 @@ and update the master repository.  Access rights can be assigned to groups, and 
 
 See the Canvas instructions for a complete set of requirements for this year's project.
 
+INSTRUCTIONS FROM PROJECT MASTER
 
+1. Start by cloning the repository using git clone
 
+2. Create a new branch with the format with you first name and last name ex: (git checkout -b add timcook) or ((git branch timcook), (git checkout timcook))
+
+3. Then add and commit the files you have added/changed to the branch
+
+4. Your branch is currently a local branch but you need to push it to a remote branch. To do so use the command git push - u origin branch name. 
+ex: git push-u origin timcook
+
+5. Your branch should be on the github remote repository now!
+
+6. If your branch is not showing up on the repository or you are confused, watch this video for help: https://www.coursera.org/lecture/introduction-git-github/the-typical-pull-request-workflow-on-github-8mpDb
 
