@@ -1,4 +1,34 @@
-﻿
+INSTRUCTIONS FROM PROJECT MASTER
+
+before doing this, navigate to a new, empty file
+
+1. Start by cloning the repository using (git clone https://github.com/GreenfootSeatingChartMaster2022-23-P7/GreenfootSeatingChartMaster2022-23-P7.git)
+1a. now make sure you cd into this new repository 
+
+2. Create a new branch with the format with you first name and last name ex:
+git branch firstlast
+git checkout firstlast
+
+add your code files, images, and audio
+
+3. Then add and commit the files you have added/changed to the branch ex:
+git add FirstLast.java
+git add images/firstlast.jpg
+git add sounds/firstlast.wav
+git commit -m "add firstlast files"
+
+4. Your branch is currently a local branch but you need to push it to a remote branch. ex:
+git push -u origin branchname
+
+
+5. Your branch should be on the github remote repository now!
+
+MORE README TO BE ADDED SOON
+
+
+6. If your branch is not showing up on the repository or you are confused, watch this video for help: https://www.coursera.org/lecture/introduction-git-github/the-typical-pull-request-workflow-on-github-8mpDb
+
+
 PROJECT TITLE: AP CSA Assignment 1 (An interactive seating chart using Greenfoot)
 
 PURPOSE OF PROJECT: The purpose of this assignment is to visually work with classes and subclasses, abstract classes, and interfaces, and to familiarize yourself with the basics of the GIT command line.  As a side effect, it will help your instructor learn your names!
@@ -77,18 +107,5 @@ and update the master repository.  Access rights can be assigned to groups, and 
 
 See the Canvas instructions for a complete set of requirements for this year's project.
 
-INSTRUCTIONS FROM PROJECT MASTER
 
-1. Start by cloning the repository using (git clone)
-
-2. Create a new branch with the format with you first name and last name ex: (git checkout -b add timcook) or ((git branch timcook), (git checkout timcook))
-
-3. Then add and commit the files you have added/changed to the branch ex: ((git add), (git commit -m "enter your message"))
-
-4. Your branch is currently a local branch but you need to push it to a remote branch. To do so use the command (git push - u origin branchname). 
-ex: (git push-u origin timcook)
-
-5. Your branch should be on the github remote repository now!
-
-6. If your branch is not showing up on the repository or you are confused, watch this video for help: https://www.coursera.org/lecture/introduction-git-github/the-typical-pull-request-workflow-on-github-8mpDb
 
