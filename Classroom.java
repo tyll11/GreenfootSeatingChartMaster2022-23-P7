@@ -135,6 +135,7 @@ public class Classroom extends World
         studentdesk19.setDeskGroup(8);
         studentdesk18.setDeskGroup(8);
         studentdesk20.setDeskGroup(8);
+        
     }
    
     
@@ -150,11 +151,13 @@ public class Classroom extends World
  // Your current seatX and seatY can be found by right clicking on the corresponding seat in the Classrom.
  // and then clicking on the inspect text
         KilgoreTrout kilgoretrout = new KilgoreTrout();
-        HitarthShukla hitarthshukla = new HitarthShukla();
         addObject(kilgoretrout,2,3);
-        addObject(hitarthshukla,5,10);
         kilgoretrout.assignSeat();
-        hitarthshukla.assignSeat();
+        
+        
+        AnikaitSrivastav anikaitsrivastav = new AnikaitSrivastav();
+        addObject(anikaitsrivastav,6,7);
+        anikaitsrivastav.assignSeat();  
   
     }
     
