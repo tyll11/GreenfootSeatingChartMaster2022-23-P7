@@ -27,15 +27,15 @@ git push -u origin branchname
 6. Once you have it on your branch, go to the master branch of the repository
 **CLICK COMPARE AND CREATE PULL REQUEST**
 
-![alt text](https://www.dropbox.com/s/rzqb1frulflhc0c/image1.png?dl=0)
+![alt text](https://drive.google.com/file/d/1asCqKCCe3dduE0lXqbRjt74t-mhdbsvL/view?usp=sharing)
 
 **MAKE SURE TO CHANGE THE UPSTREAM**
 
-![alt text](https://www.dropbox.com/s/rt80571954zjlmp/image2.png?dl=0)
+![alt text](https://drive.google.com/file/d/1auTHxQ1EcUlSqaEtc7HjwBClVCrmOUsi/view?usp=sharing)
 
 **change pull request title to your name
 
-![alt text](https://www.dropbox.com/s/w8f7t0r2hlrbxz2/image3.png?dl=0)
+![alt text](https://drive.google.com/file/d/1YeOvUoiutOBDDlgSdwYZsdghrnuU9yA9/view?usp=sharing)
 
 **once PULL REQUEST is submitted, we will merge it if it should merge successfully, otherwise we will mark for review
 
