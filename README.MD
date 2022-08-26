@@ -27,17 +27,17 @@ git push -u origin branchname
 6. Once you have it on your branch, go to the master branch of the repository
 **CLICK COMPARE AND CREATE PULL REQUEST**
 
-![alt text](https://drive.google.com/file/d/1asCqKCCe3dduE0lXqbRjt74t-mhdbsvL/view?usp=sharing)
+![My Image](imagesForGithubReadme/image1.png)
 
 **MAKE SURE TO CHANGE THE UPSTREAM**
 
-![alt text](https://drive.google.com/file/d/1auTHxQ1EcUlSqaEtc7HjwBClVCrmOUsi/view?usp=sharing)
+![My Image](imagesForGithubReadme/image2.png)
 
-**change pull request title to your name
+**change pull request title to your name**
 
-![alt text](https://drive.google.com/file/d/1YeOvUoiutOBDDlgSdwYZsdghrnuU9yA9/view?usp=sharing)
+![My Image](imagesForGithubReadme/image3.png)
 
-**once PULL REQUEST is submitted, we will merge it if it should merge successfully, otherwise we will mark for review
+**once PULL REQUEST is submitted, we will merge it if it should merge successfully, otherwise we will mark for review**
 
  *If your branch is not showing up on the repository or you are confused, watch this video for help: https://www.coursera.org/lecture/introduction-git-github/the-typical-pull-request-workflow-on-github-8mpDb
 
