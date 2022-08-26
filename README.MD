@@ -41,6 +41,8 @@ git push -u origin branchname <br />
 
  *If your branch is not showing up on the repository or you are confused, watch this video for help: https://www.coursera.org/lecture/introduction-git-github/the-typical-pull-request-workflow-on-github-8mpDb*
 
+PROJECT INSTRUCTIONS 
+======
 
 PROJECT TITLE: AP CSA Assignment 1 (An interactive seating chart using Greenfoot)
 
