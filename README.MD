@@ -1,31 +1,31 @@
-INSTRUCTIONS FROM PROJECT MASTER
+INSTRUCTIONS FROM BUILDMASTER
 ===============================
 
 before doing this, navigate to a new, empty file
 
-1. Start by cloning the repository using (git clone https://github.com/GreenfootSeatingChartMaster2022-23-P7/GreenfootSeatingChartMaster2022-23-P7.git)
-1a. ***now make sure you cd into this new repository**
+1. Start by cloning the repository using (git clone https://github.com/GreenfootSeatingChartMaster2022-23-P7/GreenfootSeatingChartMaster2022-23-P7.git) <br /> 
+1a. ***now make sure you cd into this new repository***
 
-2. Create a new branch with the format with you first name and last name ex:
-git branch firstlast
-git checkout firstlast
+2. Create a new branch with the format with you first name and last name ex: <br />
+git branch firstlast <br />
+git checkout firstlast <br />
 
 add your code files, images, and audio
 
-3. Then add and commit the files you have added/changed to the branch ex:
-git add FirstLast.java
-git add images/firstlast.jpg
-git add sounds/firstlast.wav
-git commit -m "add firstlast files"
+3. Then add and commit the files you have added/changed to the branch ex: <br />
+git add FirstLast.java <br />
+git add images/firstlast.jpg <br />
+git add sounds/firstlast.wav <br />
+git commit -m "add firstlast files" <br />
 
-4. Your branch is currently a local branch but you need to push it to a remote branch. ex:
-git push -u origin branchname
+4. Your branch is currently a local branch but you need to push it to a remote branch. ex: <br />
+git push -u origin branchname <br />
 
 
 5. Your branch should be on the github remote repository now!
 
-6. Once you have it on your branch, go to the master branch of the repository
-**CLICK COMPARE AND CREATE PULL REQUEST**
+6. Once you have it on your branch, go to the master branch of the repository <br />
+**CLICK COMPARE AND CREATE PULL REQUEST** <br />
 
 ![My Image](imagesForGithubReadme/image1.png)
 
@@ -39,7 +39,7 @@ git push -u origin branchname
 
 **once PULL REQUEST is submitted, we will merge it if it should merge successfully, otherwise we will mark for review**
 
- *If your branch is not showing up on the repository or you are confused, watch this video for help: https://www.coursera.org/lecture/introduction-git-github/the-typical-pull-request-workflow-on-github-8mpDb
+ *If your branch is not showing up on the repository or you are confused, watch this video for help: https://www.coursera.org/lecture/introduction-git-github/the-typical-pull-request-workflow-on-github-8mpDb*
 
 
 PROJECT TITLE: AP CSA Assignment 1 (An interactive seating chart using Greenfoot)
