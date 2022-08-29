@@ -54,7 +54,7 @@ public abstract class Student extends Actor
     }
     
     public void sayName(String myNameFile){
-        Greenfoot.playSound(myNameFile);
+        // Greenfoot.playSound(myNameFile);
     }
     
     public void returnToSeat(){
@@ -69,5 +69,40 @@ public abstract class Student extends Actor
         mySeatX=getX();
         mySeatY=getY();
     }
- 
+    
+    /**
+     * First spins around the border
+     * Then transports itself to top right corner and goes down vertically
+     * After it goes down vertically it goes back to the top one line to the left
+     * And goes back down, repeats until it reaches the top right of the screen
+     * Made by: Hitarth Shukla, Andres Silvera, Alexander Suen, Krithik Tamilvanan
+     */
+    public void tableMove(){
+        GreenfootImage myImage = getImage();
+        for (int i = 0; i < 2; i++){
+            int rotationAngle = 0;
+            while (rotationAngle < 360) {
+                setRotation(rotationAngle);
+                move(1);
+                Greenfoot.delay(2);
+                rotationAngle = rotationAngle + 5;
+            }
+            setRotation(360);
+        }
+        Greenfoot.delay(10);
+        // move right
+        for (int i=0;i<=9;i++){
+            turn(45);
+            setLocation(i,i);
+            Greenfoot.delay(1);
+        }
+        // move back
+        for (int i=14;i>=0;i--){
+            for (int j=0; j<14; j++){
+                setLocation(i, j);
+                Greenfoot.delay(1);
+            }
+        }  
+        setRotation(0);
+    }
 }
