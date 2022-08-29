@@ -66,7 +66,7 @@ public class TheoLeung extends Student implements SpecialInterestOrHobby
                 getName();
                 sayName(soundFile);
             
-                myHobby("I like to time travel!");
+                myHobby("I like music and sleeping in!");
             // Create a "special method for your class and put the call here.  You can twirl your image, resize it, move it around, change transparancy, or a 
             // combination of all of those types of actions, or more. Make sure to save the original image if you manipulate it, so that you can put it back.
             // Call the sitDown() method to move back  to your seat
@@ -97,30 +97,15 @@ public class TheoLeung extends Student implements SpecialInterestOrHobby
      * You should write your own methods to perform your own animation for your character/avatar.
      */
     public void shook(){
-        for(int count = 1; count<4; count ++){
+        for (int i = 0; i<8;i++){
             
-            for(int count2 = 1; count2 <30; count2 ++){
-                if(count2%2==0){
-                    setLocation(2,6);
-                    Greenfoot.delay(1);
-                }
-                else{
-                    setLocation(4,6);
-                    Greenfoot.delay(1);
-                }
-            }
-            for(int count2 = 1; count2 <30; count2 ++){
-                if(count2%2==0){
-                    setLocation(3,7);
-                    Greenfoot.delay(1);
-                }
-                else{
-                    setLocation(3,5);
-                    Greenfoot.delay(1);
-                }
-            }
-    }
-           returnToSeat();
+            setLocation(3 + i,6);
+            Greenfoot.delay(30);
+            
+        }
+        setImage("explosion.png");
+        Greenfoot.delay(60);
+        returnToSeat();
     }
      /**
      * myHobby is one of the interfaces provided.  
