@@ -157,7 +157,9 @@ public class Classroom extends World
         
         AnikaitSrivastav anikaitsrivastav = new AnikaitSrivastav();
         addObject(anikaitsrivastav,6,7);
-        anikaitsrivastav.assignSeat();  
+        anikaitsrivastav.assignSeat(); 
+        AlexanderSuen alexandersuen = new AlexanderSuen();
+        addObject(alexandersuen,5,6);
   
     }
     
