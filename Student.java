@@ -70,6 +70,17 @@ public abstract class Student extends Actor
         mySeatX=getX();
         mySeatY=getY();
     }
+    
+    public void TableGroup1Method(){
+        /** Table Group 1: Seth, Miranda, Abhi, and Ankita **/
+        Greenfoot.delay(10);
+        for (int i=1;i<=30;i++){
+            setRotation((int)(12*i));
+            Greenfoot.delay(10);
+        }
+        
+    }
+    
     /**
      * Makes the person spin in a perfect circle around a center point
      * Using sin and cosine with customisable variables but is also overloaded
