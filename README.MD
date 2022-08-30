@@ -16,10 +16,12 @@ add your code files, images, and audio
 git add FirstLast.java <br />
 git add images/firstlast.jpg <br />
 git add sounds/firstlast.wav <br />
+git add Classroom.java <br />
 git commit -m "add firstlast files" <br />
 
 4. Your branch is currently a local branch but you need to push it to a remote branch. ex: <br />
 **BEFORE DOING THIS, MAKE SURE IT RUNS FINE ON YOUR END (INCLUDING ALL THE FILES YOUVE DOWNLOADED FROM GIT CLONE)** <br />
+## ***most likely this will just be updating classroom.java and making sure your seat isnt overlapping with someone elses*** <br />
 git push -u origin branchname <br />
 
 
