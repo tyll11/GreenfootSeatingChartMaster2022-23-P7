@@ -163,7 +163,7 @@ public class Classroom extends World
         anikaitsrivastav.assignSeat(); 
         
         AlexanderSuen alexandersuen = new AlexanderSuen();
-        addObject(alexandersuen,5,6);
+        addObject(alexandersuen,6,10);
         alexandersuen.assignSeat();
         
         KrithikTamilvanan krithiktamilvanan = new KrithikTamilvanan();

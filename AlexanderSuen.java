@@ -41,8 +41,8 @@ public class AlexanderSuen extends Student implements SpecialInterestOrHobby
     public AlexanderSuen() {
         firstName="Alexander";
         lastName="Suen";
-        mySeatX=8;
-        mySeatY=3;
+        mySeatX=6;
+        mySeatY=10;
         
        // imgFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
        portraitFile=firstName.toLowerCase()+ lastName.toLowerCase()+".jpg";
