@@ -33,6 +33,7 @@ public class RyanLin extends Student implements SpecialInterestOrHobby
         setImage(portraitFile);
         sitting=true;
     }
+    
     /**
      * Default constructor, if you don't pass in a name and seating location
      * Pay attention to how the row and seat variables set the location of the image.  1,1 is the first cell in the upper left
@@ -51,6 +52,19 @@ public class RyanLin extends Student implements SpecialInterestOrHobby
         sitting=true;
     }
     
+    public void ryan360Class(int ynum){
+        for (int i=10; i>=1; i--){
+            setLocation(i,ynum);
+            setRotation(i*30);
+            Greenfoot.delay(3);
+    }
+}
+  public void ryanforward(int ynum){
+    for (int i=3;i<=10;i++){
+            setLocation(i,ynum);
+            Greenfoot.delay(10);
+        }
+}
      /**
      * Act - do whatever the KilgoreTrout actor wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -71,7 +85,7 @@ public class RyanLin extends Student implements SpecialInterestOrHobby
             // combination of all of those types of actions, or more. Make sure to save the original image if you manipulate it, so that you can put it back.
             // Call the sitDown() method to move back  to your seat
             
-                circleClass();  // Kilgore Trount's special method... Please write one of your own. You can use this, but please modify it and be creative.
+                ryanmoveClass();  // Kilgore Trount's special method... Please write one of your own. You can use this, but please modify it and be creative.
            
                 sitDown();
             }
@@ -96,32 +110,45 @@ public class RyanLin extends Student implements SpecialInterestOrHobby
      * This is a local method specific to the KilgoreTrout class used to animate the character once the image is clicked on.
      * You should write your own methods to perform your own animation for your character/avatar.
      */
-    public void circleClass(){
-        setLocation(0,0);
+    public void ryanmoveClass(){
+        setImage("iguazuphoto.jpg");
+        setLocation(1,1);
          Greenfoot.delay(10);
         // move right
-        for (int i=1;i<=9;i++){
-            setLocation(i,0);
-            Greenfoot.delay(10);
+        ryanforward(1);
+        ryan360Class(3);
+        setRotation(0);
+        
+        setImage("rio.jpg");
+        ryanforward(3);
+        ryan360Class(5);
+        setRotation(0);
+        
+        setImage("buenosaires.jpg");
+        ryanforward(5);
+        ryan360Class(7);
+        setRotation(0);
+        
+        setImage("santiago.jpg");
+        ryanforward(7);
+        ryan360Class(9);
+        setRotation(0);
+        
+        setImage("ryanlake.jpg");
+        ryanforward(9);
+        
+        setImage("ryanlin-standing.jpg");
+        for (int i=10; i>=1; i--){
+            setLocation(i, 10 - i);
+            setRotation(45 * i);
+            Greenfoot.delay(3);
         }
+        setRotation(0);
+            
         // move back
-        for (int i=1;i<=5;i++){
-            setLocation(9,i);
-            Greenfoot.delay(10);
-        }      
-         // move left
-        for (int i=9;i>=0;i--){
-            setLocation(i,5);
-            Greenfoot.delay(10);
-        }      
-              // move Forward
-        for (int i=5;i>=0;i--){
-            setLocation(0,i);
-            Greenfoot.delay(10);
-        }   
-           Greenfoot.delay(20);
+           Greenfoot.delay(10);
            returnToSeat();
-    }
+        }
      /**
      * myHobby is one of the interfaces provided.  
      * An interface is just a contract for the methods that you will implement in your code.  The College Board no longer
@@ -130,5 +157,6 @@ public class RyanLin extends Student implements SpecialInterestOrHobby
      public void myHobby(String s) {
          System.out.println(s);
 }
+    
 
 }
