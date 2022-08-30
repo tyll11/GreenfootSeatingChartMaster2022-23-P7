@@ -160,6 +160,11 @@ public class Classroom extends World
         anikaitsrivastav.assignSeat(); 
         AlexanderSuen alexandersuen = new AlexanderSuen();
         addObject(alexandersuen,5,6);
+        alexandersuen.assignSeat();
+        
+        KrithikTamilvanan krithiktamilvanan = new KrithikTamilvanan();
+        addObject(krithiktamilvanan,5,10);
+        krithiktamilvanan.assignSeat();
         
         LukeZeng lukezeng = new LukeZeng();
         addObject(lukezeng,8,9);

@@ -128,6 +128,7 @@ public class AlexanderSuen extends Student implements SpecialInterestOrHobby
             Greenfoot.delay(1);
         }      
            Greenfoot.delay(1);
+           setRotation(0);
            returnToSeat();
     }
      /**
