@@ -159,7 +159,7 @@ public class Classroom extends World
         ryanlin.assignSeat();
         
         AnikaitSrivastav anikaitsrivastav = new AnikaitSrivastav();
-        addObject(anikaitsrivastav,6,7);
+        addObject(anikaitsrivastav,8,9);
         anikaitsrivastav.assignSeat(); 
         
         AlexanderSuen alexandersuen = new AlexanderSuen();
@@ -171,12 +171,17 @@ public class Classroom extends World
         krithiktamilvanan.assignSeat();
         
         LukeZeng lukezeng = new LukeZeng();
-        addObject(lukezeng,8,9);
+        addObject(lukezeng,9,10);
         lukezeng.assignSeat();
         
         HitarthShukla hitarthshukla = new HitarthShukla();
         addObject(hitarthshukla,5,10);
         hitarthshukla.assignSeat();
+        
+        AndresSilvera andressilvera = new AndresSilvera();
+        addObject(andressilvera,5,9);
+        andressilvera.assignSeat();
+        
         
     }
     
