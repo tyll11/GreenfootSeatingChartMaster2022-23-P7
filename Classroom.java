@@ -135,6 +135,7 @@ public class Classroom extends World
         studentdesk19.setDeskGroup(8);
         studentdesk18.setDeskGroup(8);
         studentdesk20.setDeskGroup(8);
+        
     }
    
     
@@ -152,10 +153,31 @@ public class Classroom extends World
         KilgoreTrout kilgoretrout = new KilgoreTrout();
         addObject(kilgoretrout,2,3);
         kilgoretrout.assignSeat();
-  
+        
+        RyanLin ryanlin = new RyanLin();
+        addObject(ryanlin,2,6);
+        ryanlin.assignSeat();
+        
+        AnikaitSrivastav anikaitsrivastav = new AnikaitSrivastav();
+        addObject(anikaitsrivastav,6,7);
+        anikaitsrivastav.assignSeat(); 
+        
+        AlexanderSuen alexandersuen = new AlexanderSuen();
+        addObject(alexandersuen,5,6);
+        alexandersuen.assignSeat();
+        
+        KrithikTamilvanan krithiktamilvanan = new KrithikTamilvanan();
+        addObject(krithiktamilvanan,5,10);
+        krithiktamilvanan.assignSeat();
+        
+        LukeZeng lukezeng = new LukeZeng();
+        addObject(lukezeng,8,9);
+        lukezeng.assignSeat();
+        
         HitarthShukla hitarthshukla = new HitarthShukla();
         addObject(hitarthshukla,5,10);
         hitarthshukla.assignSeat();
+        
     }
     
     public List<Student> getAllStudents(){
