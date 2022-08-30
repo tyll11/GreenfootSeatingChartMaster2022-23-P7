@@ -93,8 +93,7 @@ public class TheoLeung extends Student implements SpecialInterestOrHobby
 
    
     /**
-     * This is a local method specific to the TheoLeung class used to animate the character once the image is clicked on.
-     * You should write your own methods to perform your own animation for your character/avatar.
+     * This method moves the actor 8 paces to the right and then will explode.
      */
     public void shook(){
         for (int i = 0; i<8;i++){
