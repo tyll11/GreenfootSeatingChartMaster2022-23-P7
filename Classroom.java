@@ -154,7 +154,6 @@ public class Classroom extends World
         addObject(kilgoretrout,2,3);
         kilgoretrout.assignSeat();
         
-        ryanlin
         RyanLin ryanlin = new RyanLin();
         addObject(ryanlin,2,6);
         ryanlin.assignSeat();
