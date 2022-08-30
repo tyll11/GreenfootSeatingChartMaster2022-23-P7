@@ -1,5 +1,6 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.ArrayList;
+import java.lang.Math;
 /**
  * Write a description of class Student here.
  * 
@@ -68,6 +69,31 @@ public abstract class Student extends Actor
     public void assignSeat(){
         mySeatX=getX();
         mySeatY=getY();
+    }
+    /**
+     * Makes the person spin in a perfect circle around a center point
+     * Using sin and cosine with customisable variables but is also overloaded
+     * with default parameters in case someone wants to edit it
+     * Made by: Anikait Srivastav, Luke Zeng, Saachi T
+     */
+    public void circleMovement(int centerX ,int centerY ,int radius){
+        for(float deg = 0; deg < 360; deg += 5.0){
+            double cosVar = Math.cos((deg/180)*Math.PI);
+            double sinVar = Math.sin((deg/180)*Math.PI);
+            setLocation((int)(centerX + (cosVar*radius)),(int)(centerY + (sinVar*radius)));
+            Greenfoot.delay(1);
+        }
+    }
+    public void circleMovement(){
+        int centerX = 6;
+        int centerY = 7;
+        int radius = 6;
+        for(float deg = 0; deg < 360; deg += 5.0){
+            double cosVar = Math.cos((deg/180)*Math.PI);
+            double sinVar = Math.sin((deg/180)*Math.PI);
+            setLocation((int)(centerX + (cosVar*radius)),(int)(centerY + (sinVar*radius)));
+            Greenfoot.delay(1);
+        }
     }
     
     /**

@@ -99,6 +99,7 @@ public class AnikaitSrivastav extends Student implements SpecialInterestOrHobby
      */
     public void circleClass(){
         int oldHeight = getImage().getHeight();
+        circleMovement();
         setLocation(0,2);
          Greenfoot.delay(10);
         // move right
