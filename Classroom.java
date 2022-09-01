@@ -175,7 +175,7 @@ public class Classroom extends World
         lukezeng.assignSeat();
         
         HitarthShukla hitarthshukla = new HitarthShukla();
-        addObject(hitarthshukla,5,10);
+        addObject(hitarthshukla,6,9);
         hitarthshukla.assignSeat();
         
         AndresSilvera andressilvera = new AndresSilvera();
