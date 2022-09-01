@@ -127,3 +127,7 @@ See the Canvas instructions for a complete set of requirements for this year's p
 
 
 
+<<<<<<< HEAD:README.TXT
+
+=======
+>>>>>>> master:README.MD
